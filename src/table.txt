@@ -1,0 +1,153 @@
+Performance table , where negative performance indicates an improvement: 
+CLASSIFYING WITH Dummy
+BASE PERFORMANCE (no features dropped): 
+	Average f1 for Dummy:		0.1296
+	Average precision for Dummy:		0.1296
+	Average recall for Dummy:		0.1296
+	Average accuracy for Dummy:		0.1296
+DROPPING FEATURE a1:
+	Difference in f1 for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in precision for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in recall for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in accuracy for Dummy: 0.1296 - 0.1296 = 		0.0
+DROPPING FEATURE a2:
+	Difference in f1 for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in precision for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in recall for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in accuracy for Dummy: 0.1296 - 0.1296 = 		0.0
+DROPPING FEATURE a3:
+	Difference in f1 for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in precision for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in recall for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in accuracy for Dummy: 0.1296 - 0.1296 = 		0.0
+DROPPING FEATURE a5:
+	Difference in f1 for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in precision for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in recall for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in accuracy for Dummy: 0.1296 - 0.1296 = 		0.0
+DROPPING FEATURE a6:
+	Difference in f1 for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in precision for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in recall for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in accuracy for Dummy: 0.1296 - 0.1296 = 		0.0
+DROPPING FEATURE a7:
+	Difference in f1 for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in precision for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in recall for Dummy: 0.1296 - 0.1296 = 		0.0
+	Difference in accuracy for Dummy: 0.1296 - 0.1296 = 		0.0
+
+----------------------
+CLASSIFYING WITH Naive_Bayes
+BASE PERFORMANCE (no features dropped): 
+	Average f1 for Naive_Bayes:		0.3668
+	Average precision for Naive_Bayes:		0.3668
+	Average recall for Naive_Bayes:		0.3668
+	Average accuracy for Naive_Bayes:		0.3668
+DROPPING FEATURE a1:
+	Difference in f1 for Naive_Bayes: 0.3668 - 0.372 = 		-0.005199999999999982
+	Difference in precision for Naive_Bayes: 0.3668 - 0.372 = 		-0.005199999999999982
+	Difference in recall for Naive_Bayes: 0.3668 - 0.372 = 		-0.005199999999999982
+	Difference in accuracy for Naive_Bayes: 0.3668 - 0.372 = 		-0.005199999999999982
+DROPPING FEATURE a2:
+	Difference in f1 for Naive_Bayes: 0.3668 - 0.3702 = 		-0.0033999999999999586
+	Difference in precision for Naive_Bayes: 0.3668 - 0.3702 = 		-0.0033999999999999586
+	Difference in recall for Naive_Bayes: 0.3668 - 0.3702 = 		-0.0033999999999999586
+	Difference in accuracy for Naive_Bayes: 0.3668 - 0.3702 = 		-0.0033999999999999586
+DROPPING FEATURE a3:
+	Difference in f1 for Naive_Bayes: 0.3668 - 0.348 = 		0.01880000000000004
+	Difference in precision for Naive_Bayes: 0.3668 - 0.348 = 		0.01880000000000004
+	Difference in recall for Naive_Bayes: 0.3668 - 0.348 = 		0.01880000000000004
+	Difference in accuracy for Naive_Bayes: 0.3668 - 0.348 = 		0.01880000000000004
+DROPPING FEATURE a5:
+	Difference in f1 for Naive_Bayes: 0.3668 - 0.3566 = 		0.010200000000000042
+	Difference in precision for Naive_Bayes: 0.3668 - 0.3566 = 		0.010200000000000042
+	Difference in recall for Naive_Bayes: 0.3668 - 0.3566 = 		0.010200000000000042
+	Difference in accuracy for Naive_Bayes: 0.3668 - 0.3566 = 		0.010200000000000042
+DROPPING FEATURE a6:
+	Difference in f1 for Naive_Bayes: 0.3668 - 0.36260000000000003 = 		0.0041999999999999815
+	Difference in precision for Naive_Bayes: 0.3668 - 0.36260000000000003 = 		0.0041999999999999815
+	Difference in recall for Naive_Bayes: 0.3668 - 0.36260000000000003 = 		0.0041999999999999815
+	Difference in accuracy for Naive_Bayes: 0.3668 - 0.36260000000000003 = 		0.0041999999999999815
+DROPPING FEATURE a7:
+	Difference in f1 for Naive_Bayes: 0.3668 - 0.36519999999999997 = 		0.0016000000000000458
+	Difference in precision for Naive_Bayes: 0.3668 - 0.36519999999999997 = 		0.0016000000000000458
+	Difference in recall for Naive_Bayes: 0.3668 - 0.36519999999999997 = 		0.0016000000000000458
+	Difference in accuracy for Naive_Bayes: 0.3668 - 0.36519999999999997 = 		0.0016000000000000458
+
+----------------------
+CLASSIFYING WITH Decision_Tree
+BASE PERFORMANCE (no features dropped): 
+	Average f1 for Decision_Tree:		0.6032
+	Average precision for Decision_Tree:		0.6032
+	Average recall for Decision_Tree:		0.6032
+	Average accuracy for Decision_Tree:		0.6032
+DROPPING FEATURE a1:
+	Difference in f1 for Decision_Tree: 0.6032 - 0.6134000000000001 = 		-0.010200000000000098
+	Difference in precision for Decision_Tree: 0.6032 - 0.6134000000000001 = 		-0.010200000000000098
+	Difference in recall for Decision_Tree: 0.6032 - 0.6134000000000001 = 		-0.010200000000000098
+	Difference in accuracy for Decision_Tree: 0.6032 - 0.6134000000000001 = 		-0.010200000000000098
+DROPPING FEATURE a2:
+	Difference in f1 for Decision_Tree: 0.6032 - 0.6157999999999999 = 		-0.012599999999999945
+	Difference in precision for Decision_Tree: 0.6032 - 0.6157999999999999 = 		-0.012599999999999945
+	Difference in recall for Decision_Tree: 0.6032 - 0.6157999999999999 = 		-0.012599999999999945
+	Difference in accuracy for Decision_Tree: 0.6032 - 0.6157999999999999 = 		-0.012599999999999945
+DROPPING FEATURE a3:
+	Difference in f1 for Decision_Tree: 0.6032 - 0.5862 = 		0.016999999999999904
+	Difference in precision for Decision_Tree: 0.6032 - 0.5862 = 		0.016999999999999904
+	Difference in recall for Decision_Tree: 0.6032 - 0.5862 = 		0.016999999999999904
+	Difference in accuracy for Decision_Tree: 0.6032 - 0.5862 = 		0.016999999999999904
+DROPPING FEATURE a5:
+	Difference in f1 for Decision_Tree: 0.6032 - 0.5932 = 		0.010000000000000009
+	Difference in precision for Decision_Tree: 0.6032 - 0.5932 = 		0.010000000000000009
+	Difference in recall for Decision_Tree: 0.6032 - 0.5932 = 		0.010000000000000009
+	Difference in accuracy for Decision_Tree: 0.6032 - 0.5932 = 		0.010000000000000009
+DROPPING FEATURE a6:
+	Difference in f1 for Decision_Tree: 0.6032 - 0.6148 = 		-0.011600000000000055
+	Difference in precision for Decision_Tree: 0.6032 - 0.6148 = 		-0.011600000000000055
+	Difference in recall for Decision_Tree: 0.6032 - 0.6148 = 		-0.011600000000000055
+	Difference in accuracy for Decision_Tree: 0.6032 - 0.6148 = 		-0.011600000000000055
+DROPPING FEATURE a7:
+	Difference in f1 for Decision_Tree: 0.6032 - 0.6126 = 		-0.009400000000000075
+	Difference in precision for Decision_Tree: 0.6032 - 0.6126 = 		-0.009400000000000075
+	Difference in recall for Decision_Tree: 0.6032 - 0.6126 = 		-0.009400000000000075
+	Difference in accuracy for Decision_Tree: 0.6032 - 0.6126 = 		-0.009400000000000075
+
+----------------------
+CLASSIFYING WITH Random_Forest
+BASE PERFORMANCE (no features dropped): 
+	Average f1 for Random_Forest:		0.6716000000000001
+	Average precision for Random_Forest:		0.6716000000000001
+	Average recall for Random_Forest:		0.6716000000000001
+	Average accuracy for Random_Forest:		0.6716000000000001
+DROPPING FEATURE a1:
+	Difference in f1 for Random_Forest: 0.6716000000000001 - 0.6758000000000001 = 		-0.0041999999999999815
+	Difference in precision for Random_Forest: 0.6716000000000001 - 0.6758000000000001 = 		-0.0041999999999999815
+	Difference in recall for Random_Forest: 0.6716000000000001 - 0.6758000000000001 = 		-0.0041999999999999815
+	Difference in accuracy for Random_Forest: 0.6716000000000001 - 0.6758000000000001 = 		-0.0041999999999999815
+DROPPING FEATURE a2:
+	Difference in f1 for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+	Difference in precision for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+	Difference in recall for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+	Difference in accuracy for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+DROPPING FEATURE a3:
+	Difference in f1 for Random_Forest: 0.6716000000000001 - 0.6466000000000001 = 		0.025000000000000022
+	Difference in precision for Random_Forest: 0.6716000000000001 - 0.6466000000000001 = 		0.025000000000000022
+	Difference in recall for Random_Forest: 0.6716000000000001 - 0.6466000000000001 = 		0.025000000000000022
+	Difference in accuracy for Random_Forest: 0.6716000000000001 - 0.6466000000000001 = 		0.025000000000000022
+DROPPING FEATURE a5:
+	Difference in f1 for Random_Forest: 0.6716000000000001 - 0.654 = 		0.01760000000000006
+	Difference in precision for Random_Forest: 0.6716000000000001 - 0.654 = 		0.01760000000000006
+	Difference in recall for Random_Forest: 0.6716000000000001 - 0.654 = 		0.01760000000000006
+	Difference in accuracy for Random_Forest: 0.6716000000000001 - 0.654 = 		0.01760000000000006
+DROPPING FEATURE a6:
+	Difference in f1 for Random_Forest: 0.6716000000000001 - 0.6816000000000001 = 		-0.010000000000000009
+	Difference in precision for Random_Forest: 0.6716000000000001 - 0.6816000000000001 = 		-0.010000000000000009
+	Difference in recall for Random_Forest: 0.6716000000000001 - 0.6816000000000001 = 		-0.010000000000000009
+	Difference in accuracy for Random_Forest: 0.6716000000000001 - 0.6816000000000001 = 		-0.010000000000000009
+DROPPING FEATURE a7:
+	Difference in f1 for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+	Difference in precision for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+	Difference in recall for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+	Difference in accuracy for Random_Forest: 0.6716000000000001 - 0.6769999999999999 = 		-0.005399999999999849
+
+----------------------
